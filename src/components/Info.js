@@ -8,10 +8,9 @@ const Info = () => {
           {' '}
           DEVELOPER.
           <br />
-          THINKER.
-          <br />
           REACT FAN.
-          <br />& HUSBAND.
+          <br />
+          HUSBAND. <br />& FEMINIST.
         </h1>
         <p className="info_details_para">
           Currently mentor{' '}
