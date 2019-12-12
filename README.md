@@ -14,7 +14,7 @@
 
 <br>
 
-This project is part of a series of projects to be completed by students of [Microverse](https://www.microverse.org/ "The Global School for Remote Software Developers!").
+This project is part of a series of projects to be completed by students of [Microverse](https://www.microverse.org/ 'The Global School for Remote Software Developers!').
 
 In this project, I worked on my portfolio web-site using react-redux. For the design I have used Charlie Waite's website design. You can see his web-site [here](http://charliewaite.me/)
 
@@ -30,7 +30,7 @@ For the project details I am using a json file and making an async request to ge
 - Node.js
 - npm
 - Create-React-App
-- SCSS
+- SCSS.
 
 ### ✨ [Live Demo](https://yemreaybey.com/)
 
