@@ -1,0 +1,95 @@
+.info {
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 40%;
+  background-color: #fafafa;
+  background-image: linear-gradient(180deg, #fafafa, #fafafa);
+  &_details {
+    &_para {
+      display: block;
+      font-size: 16px;
+      line-height: 26px;
+      font-family: 'Roboto', sans-serif;
+      margin: 25px auto 0 auto;
+      width: 70%;
+      animation: moveleft 1s 1 normal forwards;
+    }
+    &_header {
+      margin: 10px auto 30px auto;
+      display: flex;
+      width: 70%;
+      font-family: 'Josefin Sans', sans-serif;
+      color: #4a4a4a;
+      font-size: 36px;
+      line-height: 42px;
+      transform: translateX(0px) translateY(0px) translateZ(0px);
+      transition: opacity 500ms ease 0s, transform 500ms ease 0s;
+      animation: moveleft 500ms 1 normal forwards;
+    }
+    &_links {
+      width: 70%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 50px auto;
+      animation: moveleft 1.5s 1 normal forwards;
+      .icon {
+        color: rgba(82, 79, 79, 0.616);
+        cursor: pointer;
+        font-size: 25px;
+        margin-right: 30px;
+        transition: all 500ms ease;
+      }
+      .twitter:hover,
+      .linked-in:hover {
+        color: rgb(76, 143, 230);
+      }
+      .github:hover,
+      .angel:hover {
+        color: rgb(37, 33, 33);
+      }
+    }
+    .button-holder {
+      width: 70%;
+      height: auto;
+      margin: 70px auto 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      animation: moveleft 2s 1 normal forwards;
+    }
+    &_button {
+      padding: 15px 65px;
+      border-radius: 100px;
+      background-color: #3b80fe;
+      transition: all 200ms ease;
+      font-size: 16px;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+    }
+    &_button:hover {
+      background-color: #1660e7;
+    }
+  }
+}
+@keyframes moveleft {
+  from {
+    transform: translateX(-500px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+@media screen and(max-width: 991px) {
+  .info {
+    position: static;
+    display: flex;
+    width: 100%;
+  }
+}
