@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer>
-      <span>© 2018 Charlie Waite</span>
+      <span>© 2019 Yemre AYBEY</span>
     </footer>
   );
 };
