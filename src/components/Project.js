@@ -2,7 +2,6 @@ import React from 'react';
 
 const Project = props => {
   const { title, href, githublink, livelink, width, height, isMobile } = props;
-  console.log(props.bgc);
   return (
     <article className="project" style={{ backgroundImage: `${props.bgc}` }}>
       <p className="project_title">{title}</p>
