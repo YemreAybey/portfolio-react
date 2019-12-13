@@ -15,8 +15,8 @@ const Info = () => {
         <p className="info_details_para">
           Currently mentor{' '}
           <a href="https://www.microverse.org/"> @Microverse</a>. Formerly
-          officer <a href="https://www.microverse.org/"> @TUAF</a>. Follow my
-          work, words and projects below. Need a developer? Just say hi.{' '}
+          officer <a href="https://www.hvkk.tsk.tr/"> @TUAF</a>. Follow my work,
+          words and projects below. Need a developer? Just say hi.{' '}
         </p>
         <div className="info_details_links">
           <a href="https://github.com/YemreAybey" className="icon github">
