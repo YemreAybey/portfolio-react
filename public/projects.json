@@ -53,6 +53,15 @@
       "livelink": "https://yemreaybey.github.io/Newsweek_Homepage_Bootstrap/",
       "width": "70%",
       "height": "70%"
+    },
+    {
+      "title": ".7 Custom Kawasaki",
+      "href": "https://res.cloudinary.com/yemreaybey/image/upload/v1577108320/Portfolio/kawasaki_smhkk2.png",
+      "info": "This project is built with html, css, bootstrap and bootstrap studio.",
+      "githublink": "https://github.com/YemreAybey/portfolio-kawasaki",
+      "livelink": "https://yemreaybey.github.io/portfolio-kawasaki/",
+      "width": "90%",
+      "height": "65%"
     }
   ]
 }
