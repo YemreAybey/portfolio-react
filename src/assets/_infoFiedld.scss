@@ -1,5 +1,5 @@
 .info {
-  height: 100vh;
+  min-height: 100vh;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -37,7 +37,7 @@
       display: flex;
       align-items: center;
       justify-content: flex-start;
-      margin: 50px auto;
+      margin: 30px auto 10px auto;
       animation: moveleft 1.5s 1 normal forwards;
       .icon {
         color: rgba(82, 79, 79, 0.616);
@@ -58,14 +58,14 @@
     .button-holder {
       width: 70%;
       height: auto;
-      margin: 70px auto 0 auto;
+      margin: 50px auto 5px auto;
       display: flex;
       align-items: center;
       justify-content: flex-start;
       animation: moveleft 2s 1 normal forwards;
     }
     &_button {
-      padding: 15px 65px;
+      padding: 15px 60px;
       border-radius: 100px;
       background-color: #3b80fe;
       transition: all 200ms ease;

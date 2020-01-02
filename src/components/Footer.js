@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer>
-      <span>© 2019 Yemre AYBEY</span>
+      <span>© {`${new Date().getFullYear()} Yemre AYBEY`}</span>
     </footer>
   );
 };

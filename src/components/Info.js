@@ -1,4 +1,5 @@
 import React from 'react';
+import Stacks from './Stacks';
 
 const Info = () => {
   return (
@@ -10,7 +11,7 @@ const Info = () => {
           <br />
           REACT FAN.
           <br />
-          HUSBAND. <br />& FEMINIST.
+          HUSBAND <br />& FEMINIST.
         </h1>
         <p className="info_details_para">
           Currently mentor{' '}
@@ -18,6 +19,7 @@ const Info = () => {
           officer <a href="https://www.hvkk.tsk.tr/"> @TUAF</a>. Follow my work,
           words and projects below. Need a developer? Just say hi.{' '}
         </p>
+        <Stacks />
         <div className="info_details_links">
           <a href="https://github.com/YemreAybey" className="icon github">
             <i className="fab fa-github"></i>
@@ -37,7 +39,7 @@ const Info = () => {
         </div>
         <div className="button-holder">
           <a
-            href="mailto:aybey77@gmail.com?subject=Website%20Inquiry"
+            href="mailto:aybey.yunus.emre@gmail.com?subject=Website%20Inquiry"
             className="info_details_button"
           >
             {' '}
