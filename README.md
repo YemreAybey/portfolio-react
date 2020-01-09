@@ -11,6 +11,11 @@
     <img alt="Twitter: YunusAybey" src="https://img.shields.io/twitter/follow/YunusAybey.svg?style=social" />
   </a>
 </p>
+<p>
+  <a href="https://res.cloudinary.com/yemreaybey/image/upload/v1578570412/Portfolio/Screenshot_2020-01-09_14-44-50_irwfs7.png" target="_blank">
+    <img alt="My Portfolio" src="https://res.cloudinary.com/yemreaybey/image/upload/v1578570412/Portfolio/Screenshot_2020-01-09_14-44-50_irwfs7.png" />
+  </a>
+ </p>
 
 <br>
 
