@@ -10,7 +10,7 @@
     font-family: 'Roboto', sans-serif;
   }
   &_img {
-    width: 100%;
+    // width: 100%;
     height: 100%;
   }
   &_links {
@@ -30,10 +30,27 @@
     }
   }
 }
-
+.img-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .projectList {
   width: 100%;
 }
+
+@media only screen and(max-width: 2000px) {
+  .project {
+    height: 100vh;
+    .img-area.mobile {
+      img {
+        width: 450px;
+        height: 100%;
+      }
+    }
+  }
+}
+
 @media only screen and(max-width: 991px) {
   body {
     #root {
@@ -41,17 +58,16 @@
         width: 100%;
         margin-left: 0;
       }
-      .project {
-        height: 90vh;
-        .img-area.mobile {
-          width: 30% !important;
-          height: 90% !important;
-        }
-        .img-area.web {
-          width: 70% !important;
-          height: 55% !important;
-        }
-      }
+      // .project {
+      //   height: 90vh;
+      //   .img-area.mobile {
+      //     width: 30% !important;
+      //     height: 90% !important;
+      //   }
+      //   .img-area.web {
+      //     width: 60% !important;
+      //   }
+      // }
     }
   }
 }
@@ -59,15 +75,7 @@
   body {
     #root {
       .project {
-        height: 70vh;
-        .img-area.mobile {
-          width: 30% !important;
-          height: 100% !important;
-        }
-        .img-area.web {
-          width: 80% !important;
-          height: 55% !important;
-        }
+        height: 90vh;
       }
     }
   }
@@ -77,13 +85,20 @@
   body {
     #root {
       .project {
+        height: 100vh;
         .img-area.mobile {
           width: 40% !important;
           height: 90% !important;
+          img {
+            width: 320px;
+            height: 80% !important;
+          }
         }
         .img-area.web {
-          width: 75% !important;
-          height: 35% !important;
+          width: 100% !important;
+          img {
+            width: 100% !important;
+          }
         }
       }
     }
@@ -92,15 +107,24 @@
 
 @media only screen and(max-width: 400px) {
   body {
+    .info_details_header {
+      font-size: 30px;
+    }
     #root {
       .project {
+        height: 80vh;
         .img-area.mobile {
           width: 50% !important;
           height: 80% !important;
+          img {
+            width: 280px;
+          }
         }
         .img-area.web {
           width: 95% !important;
-          height: 38% !important;
+          img {
+            height: 80%;
+          }
         }
       }
     }

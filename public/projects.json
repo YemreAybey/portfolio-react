@@ -1,67 +1,74 @@
 {
   "projects": [
     {
-      "title": ".1 CapCourses",
-      "href": "https://res.cloudinary.com/yemreaybey/image/upload/v1576072874/Portfolio/capcourses_vcl6ha.png",
-      "info": "This project is built with react and redux. It is making use of a rails api which built by me.",
-      "githublink": "https://github.com/YemreAybey/Courses_Capstone",
-      "livelink": "https://capcourses.herokuapp.com/",
-      "width": "35%",
-      "height": "90%"
-    },
-    {
-      "title": ".2 TheFakebook",
-      "href": "https://res.cloudinary.com/yemreaybey/image/upload/v1576074074/Portfolio/facebook_w7tiqr.png",
-      "info": "This project is built with rails, You can create account add friends or unfriend them, create posts, like the posts or unlike them and sign-up with your real facebook account",
-      "githublink": "https://github.com/YemreAybey/Facebook_Replica",
-      "livelink": "https://rails-facebook.herokuapp.com/",
-      "width": "95%",
-      "height": "50%"
-    },
-    {
-      "title": ".3 Bookstore-CMS",
-      "href": "https://res.cloudinary.com/yemreaybey/image/upload/c_scale,e_auto_color,w_1220/v1575559497/Portfolio/bookstore-portfolio_qiclh2.png",
-      "info": "This project is built with react and redux. I t is making use of a rails api which built by us.",
-      "githublink": "https://github.com/YemreAybey/bookstore-redux",
-      "livelink": "https://bookstore-react-redux.herokuapp.com/",
-      "width": "90%",
-      "height": "50%"
-    },
-    {
-      "title": ".4 ToDo App",
-      "href": "https://res.cloudinary.com/yemreaybey/image/upload/v1576074972/Portfolio/toDoApp_maim3b.png",
-      "info": "This project is built with webpack and JS. U can really use it.",
-      "githublink": "https://github.com/YemreAybey/ToDo-App",
-      "livelink": "https://yemreaybey.github.io/ToDo-App/",
-      "width": "75%",
-      "height": "40%"
-    },
-    {
-      "title": ".5 Weather App",
-      "href": "https://res.cloudinary.com/yemreaybey/image/upload/v1576076146/Portfolio/weatherApp_lusclw.png",
-      "info": "This project is built with webpack and JS. You can use it by searching city names.",
-      "githublink": "https://github.com/YemreAybey/Weather-App",
-      "livelink": "https://yemreaybey.github.io/Weather-App/",
-      "width": "35%",
-      "height": "75%"
-    },
-    {
-      "title": ".6 Newsweek Clone",
-      "href": "https://res.cloudinary.com/yemreaybey/image/upload/v1576076967/Portfolio/newsweek_a4cjy0.png",
+      "title": ".1 Newsweek Clone",
+      "href": "https://res.cloudinary.com/yemreaybey/image/upload/v1578408431/Portfolio/newsweek-portfolio_vgs1z4.png",
       "info": "This project is built with html, css and bootstrap.",
       "githublink": "https://github.com/YemreAybey/Newsweek_Homepage_Bootstrap",
       "livelink": "https://yemreaybey.github.io/Newsweek_Homepage_Bootstrap/",
-      "width": "70%",
-      "height": "70%"
+      "width": "100%",
+      "height": "100%",
+      "stacks": "HTML, CSS, Bootstrap, Javascript"
     },
     {
-      "title": ".7 Custom Kawasaki",
-      "href": "https://res.cloudinary.com/yemreaybey/image/upload/v1577108320/Portfolio/kawasaki_smhkk2.png",
+      "title": ".2 Weather App",
+      "href": "https://res.cloudinary.com/yemreaybey/image/upload/c_scale,w_602/v1578408384/Portfolio/weather-app-portfolio_wddxuu.png",
+      "info": "This project is built with webpack and JS. You can use it by searching city names.",
+      "githublink": "https://github.com/YemreAybey/Weather-App",
+      "livelink": "https://yemreaybey.github.io/Weather-App/",
+      "width": "100%",
+      "height": "100%",
+      "stacks": "Webpack, Javascript, NPM, CSS, HTML"
+    },
+    {
+      "title": ".3 ToDo App",
+      "href": "https://res.cloudinary.com/yemreaybey/image/upload/v1578408425/Portfolio/todoapp-portfolio_iuawei.png",
+      "info": "This project is built with webpack and JS. U can really use it.",
+      "githublink": "https://github.com/YemreAybey/ToDo-App",
+      "livelink": "https://yemreaybey.github.io/ToDo-App/",
+      "width": "100%",
+      "height": "100%",
+      "stacks": "Webpack, Javascript, NPM, CSS, HTML"
+    },
+    {
+      "title": ".4 Custom Kawasaki",
+      "href": "https://res.cloudinary.com/yemreaybey/image/upload/v1578408685/Portfolio/kawasaki-portfolio_fc9cme.png",
       "info": "This project is built with html, css, bootstrap and bootstrap studio.",
       "githublink": "https://github.com/YemreAybey/portfolio-kawasaki",
       "livelink": "https://yemreaybey.github.io/portfolio-kawasaki/",
-      "width": "90%",
-      "height": "65%"
+      "width": "100%",
+      "height": "100%",
+      "stacks": "HTML, CSS, Bootstrap, Javvascript"
+    },
+    {
+      "title": ".5 CapCourses",
+      "href": "https://res.cloudinary.com/yemreaybey/image/upload/v1578408381/Portfolio/capcourses-portfolio_lewr1x.png",
+      "info": "This project is built with react and redux. It is making use of a rails api which built by me.",
+      "githublink": "https://github.com/YemreAybey/Courses_Capstone",
+      "livelink": "https://capcourses.herokuapp.com/",
+      "width": "100%",
+      "height": "100%",
+      "stacks": "React, Redux, Rails, SCSS, RSPEC, Capybara"
+    },
+    {
+      "title": ".6 TheFakebook",
+      "href": "https://res.cloudinary.com/yemreaybey/image/upload/v1578408426/Portfolio/facebookportfolio_lwvjqk.png",
+      "info": "This project is built with rails, You can create account add friends or unfriend them, create posts, like the posts or unlike them and sign-up with your real facebook account",
+      "githublink": "https://github.com/YemreAybey/Facebook_Replica",
+      "livelink": "https://rails-facebook.herokuapp.com/",
+      "width": "100%",
+      "height": "100%",
+      "stacks": "Rails, SCSS, Bootstrap, RSPEC"
+    },
+    {
+      "title": ".7 Bookstore-CMS",
+      "href": "https://res.cloudinary.com/yemreaybey/image/upload/v1578408366/Portfolio/bookstore-portfolio_t0v7yq.png",
+      "info": "This project is built with react and redux. I t is making use of a rails api which built by us.",
+      "githublink": "https://github.com/YemreAybey/bookstore-redux",
+      "livelink": "https://bookstore-react-redux.herokuapp.com/",
+      "width": "100%",
+      "height": "100%",
+      "stacks": "React, Redux, Rails, SCSS"
     }
   ]
 }

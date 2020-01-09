@@ -21,7 +21,7 @@
       animation: moveleft 1s 1 normal forwards;
     }
     &_header {
-      margin: 10px auto 30px auto;
+      margin: 30px auto 15px auto;
       display: flex;
       width: 70%;
       font-family: 'Josefin Sans', sans-serif;
@@ -37,8 +37,8 @@
       display: flex;
       align-items: center;
       justify-content: flex-start;
-      margin: 30px auto 10px auto;
-      animation: moveleft 1.5s 1 normal forwards;
+      margin: 20px auto 10px auto;
+      animation: moveleft 2s 1 normal forwards;
       .icon {
         color: rgba(82, 79, 79, 0.616);
         cursor: pointer;
@@ -58,11 +58,11 @@
     .button-holder {
       width: 70%;
       height: auto;
-      margin: 50px auto 5px auto;
+      margin: 30px auto 5px auto;
       display: flex;
       align-items: center;
       justify-content: flex-start;
-      animation: moveleft 2s 1 normal forwards;
+      animation: moveleft 2.5s 1 normal forwards;
     }
     &_button {
       padding: 15px 60px;
@@ -78,6 +78,9 @@
     }
   }
 }
+.stacks-area {
+  animation: moveleft 1.5s 1 normal forwards;
+}
 @keyframes moveleft {
   from {
     transform: translateX(-500px);
@@ -91,5 +94,37 @@
     position: static;
     display: flex;
     width: 100%;
+    &_details {
+      &_para {
+        margin: 25px auto 20px auto;
+      }
+      &_header {
+        margin: 30px auto 20px auto;
+      }
+      &_links {
+        margin: 30px auto 20px auto;
+      }
+      .button-holder {
+        margin: 50px auto 20px auto;
+      }
+    }
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1099px) {
+  .info {
+    &_details {
+      &_para {
+        margin: 15px auto 0 auto;
+      }
+      &_header {
+        margin: 10px auto 15px auto;
+      }
+      &_links {
+        margin: 20px auto 10px auto;
+      }
+      .button-holder {
+        margin: 15px auto 10px auto;
+      }
+    }
   }
 }
