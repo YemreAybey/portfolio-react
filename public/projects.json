@@ -7,18 +7,20 @@
       "githublink": "https://github.com/YemreAybey/Newsweek_Homepage_Bootstrap",
       "livelink": "https://yemreaybey.github.io/Newsweek_Homepage_Bootstrap/",
       "width": "100%",
-      "height": "100%",
-      "stacks": "HTML, CSS, Bootstrap, Javascript"
+      "height": "80%",
+      "stacks": "HTML, CSS, Bootstrap, Javascript",
+      "name": "weather"
     },
     {
       "title": ".2 Weather App",
-      "href": "https://res.cloudinary.com/yemreaybey/image/upload/c_scale,w_602/v1578408384/Portfolio/weather-app-portfolio_wddxuu.png",
+      "href": "https://res.cloudinary.com/yemreaybey/image/upload/v1578744172/Portfolio/weather-app-portfolio-new_lwaly4.png",
       "info": "This project is built with webpack and JS. You can use it by searching city names.",
       "githublink": "https://github.com/YemreAybey/Weather-App",
       "livelink": "https://yemreaybey.github.io/Weather-App/",
       "width": "100%",
-      "height": "100%",
-      "stacks": "Webpack, Javascript, NPM, CSS, HTML"
+      "height": "80%",
+      "stacks": "Webpack, Javascript, NPM, CSS, HTML",
+      "name": "weather"
     },
     {
       "title": ".3 ToDo App",
@@ -27,28 +29,31 @@
       "githublink": "https://github.com/YemreAybey/ToDo-App",
       "livelink": "https://yemreaybey.github.io/ToDo-App/",
       "width": "100%",
-      "height": "100%",
-      "stacks": "Webpack, Javascript, NPM, CSS, HTML"
+      "height": "80%",
+      "stacks": "Webpack, Javascript, NPM, CSS, HTML",
+      "name": "weather"
     },
     {
       "title": ".4 Custom Kawasaki",
-      "href": "https://res.cloudinary.com/yemreaybey/image/upload/v1578408685/Portfolio/kawasaki-portfolio_fc9cme.png",
+      "href": "https://res.cloudinary.com/yemreaybey/image/upload/v1578743688/Portfolio/kawasaki-portfolio-new_b0q85q.png",
       "info": "This project is built with html, css, bootstrap and bootstrap studio.",
       "githublink": "https://github.com/YemreAybey/portfolio-kawasaki",
       "livelink": "https://yemreaybey.github.io/portfolio-kawasaki/",
       "width": "100%",
-      "height": "100%",
-      "stacks": "HTML, CSS, Bootstrap, Javvascript"
+      "height": "80%",
+      "stacks": "HTML, CSS, Bootstrap, Javvascript",
+      "name": "weather"
     },
     {
       "title": ".5 CapCourses",
-      "href": "https://res.cloudinary.com/yemreaybey/image/upload/v1578408381/Portfolio/capcourses-portfolio_lewr1x.png",
+      "href": "https://res.cloudinary.com/yemreaybey/image/upload/v1578741974/Portfolio/courses-favs_sky1ua.png",
       "info": "This project is built with react and redux. It is making use of a rails api which built by me.",
       "githublink": "https://github.com/YemreAybey/Courses_Capstone",
       "livelink": "https://capcourses.herokuapp.com/",
-      "width": "100%",
-      "height": "100%",
-      "stacks": "React, Redux, Rails, SCSS, RSPEC, Capybara"
+      "width": "60%",
+      "height": "80%",
+      "stacks": "React, Redux, Rails, SCSS, RSPEC, Capybara",
+      "name": "weather"
     },
     {
       "title": ".6 TheFakebook",
@@ -57,8 +62,9 @@
       "githublink": "https://github.com/YemreAybey/Facebook_Replica",
       "livelink": "https://rails-facebook.herokuapp.com/",
       "width": "100%",
-      "height": "100%",
-      "stacks": "Rails, SCSS, Bootstrap, RSPEC"
+      "height": "80%",
+      "stacks": "Rails, SCSS, Bootstrap, RSPEC",
+      "name": "weather"
     },
     {
       "title": ".7 Bookstore-CMS",
@@ -67,7 +73,7 @@
       "githublink": "https://github.com/YemreAybey/bookstore-redux",
       "livelink": "https://bookstore-react-redux.herokuapp.com/",
       "width": "100%",
-      "height": "100%",
+      "height": "80%",
       "stacks": "React, Redux, Rails, SCSS"
     }
   ]
