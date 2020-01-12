@@ -37,7 +37,7 @@ For the project details I am using a json file and making an async request to ge
 - Create-React-App
 - SCSS.
 
-### ✨ [Live Demo](https://yemre.herokuapp.com/)
+### ✨ [Live Demo](https://emreaybey.com)
 
 ## Usage
 
